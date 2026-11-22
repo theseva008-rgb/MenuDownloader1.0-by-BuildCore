@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "menudownloader",
+  "version": "${version}",
+  "name": "MenuDownloader",
+  "description": "Client-side export tools for information visible to the client.",
+  "authors": ["MenuDownloader"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.menudownloader.MenuDownloader"]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
